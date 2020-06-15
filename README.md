@@ -20,3 +20,6 @@ server and client application.
 
 ## Build
 Build the application. Bundles the client and moves everything to the `build` folder.
+You can start the application by calling `node ./server.js`.
+The express handler then serves the API and the bundles react files.
+For further information, read the documentation in `./server`.
