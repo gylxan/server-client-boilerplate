@@ -5,7 +5,8 @@ import {getProjects} from "./util/apiclient";
 
 function App() {
   useEffect(() => {
-    getProjects().then((data) => console.info("I loaded some data from the API", data));
+
+    getProjects().then((data) => alert("I loaded some data from the API: " + JSON.stringify(data)));
 
   },[])
   return (
